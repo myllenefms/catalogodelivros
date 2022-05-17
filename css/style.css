@@ -1,0 +1,111 @@
+/* margin ou padding
+cima direita baixo esquerda */
+/*usa # pra referenciar o ID e . pra referenciar classe*/
+
+*{ /*tirar todas as formatações*/
+    margin: 0;
+    padding: 0;
+
+}
+
+body{ /*configurando toda a página com texto*/
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: rgb(93, 250, 169);
+    background-size: cover; /*cobre toda a área visível*/
+    background-position: center top;
+    background-image: url("https://cdn.culturagenial.com/imagens/dicas-livros-og.jpg");
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+.container{ /*configurando uma classe*/
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.page-title{
+    color: rgb(255, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    box-shadow: 0 0 10px;
+    background-color: rgb(234, 214, 201);
+    align-items: center;
+}
+
+.page-subtitle{
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(195, 96, 96);
+}
+
+img{
+    max-height: 250px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 1rem #fff;
+}
+
+#livro, #titulo { /*configurando os inputs = id */
+    width: 80%;
+    margin: 1rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.botao{
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #a71601;
+    color: #fff;
+    cursor: pointer; 
+
+}
+
+.botao:hover{ /*quando o mouse está em cima*/
+    /*dois pontos edita os eventos do elemento*/
+    background-color: red;
+
+}
+
+#erro{
+    background-color: red;
+    color: #fff;
+}
+
+#catalogo{
+    display: flex;
+    flex-flow: wrap;
+    padding: 1rem;
+}
+
+/* .fundo{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-flow: wrap;
+    padding: 1rem;
+    background-color: #a7160150;
+} */
+
+.retangulo{
+    display: block;
+    margin: auto;
+    align-content: center;
+    width: 50%;
+    height: 20%;
+    background-color: #af005480;
+    border-radius: 0.5rem;
+}
+
+.livro{
+    background-color: #a7160150;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    width: 13rem;
+}
+
